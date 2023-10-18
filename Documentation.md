@@ -5,6 +5,12 @@
 - To compile it, we only need to type *rustc filename.rc*.
 - Rust is an ahead-of-time compiled language, so we don't even need to have it on our system.
   We can simply use another compiler and run the code.
+- This is the format of a basic Rust file:
+
+fn main() {
+    println!("Hello, world!");
+}
+
 
 - We'll be mostly using *Cargo*, which is Rust's build system and package manager.
 - To create a new project we only need to type *cargo new projectName*.
