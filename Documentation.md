@@ -1,8 +1,8 @@
 **Notes:**
 
 
-- We can create a Rust script, by making it a .rc file.
-- To compile it, we only need to type *rustc filename.rc*.
+- We can create a Rust script, by making it a .rs file.
+- To compile it, we only need to type *rustc filename.rs*.
 - Rust is an ahead-of-time compiled language, so we don't even need to have it on our system.
   We can simply use another compiler and run the code.
 - This is the format of a basic Rust file:
